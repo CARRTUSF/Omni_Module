@@ -24,6 +24,7 @@ namespace WMRA{
 		bool setForceFeedback(double forceMag);
 		std::vector<double> getTorqueData();
 		std::vector<double> getPositionData();
+		std::vector<double> getOrientationData();
 		std::vector<double> getVelocityData();
 	private:
 		HHD hHD;
