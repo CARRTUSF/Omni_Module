@@ -1,0 +1,32 @@
+﻿Build started 12/10/2014 12:37:19 PM.
+     1>Project "C:\Users\dashley2\documents\visual studio 2010\Projects\Omni_Example\Omni_Example\Omni_Example.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Omni_Example.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dashley2\documents\visual studio 2010\Projects\Omni_Example\Release\Omni_Example.exe" /NOLOGO omni_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Omni_Example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\dashley2\documents\visual studio 2010\Projects\Omni_Example\Release\Omni_Example.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dashley2\documents\visual studio 2010\Projects\Omni_Example\Release\Omni_Example.lib" /MACHINE:X86 Release\main.obj
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdDisableDevice@4
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdUnschedule@4
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdStopScheduler@0
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol _hduIsSchedulerError
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdGetError@0
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdEndFrame@4
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdSetDoublev@8
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdGetIntegerv@8
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdGetDoublev@8
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdBeginFrame@4
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdGetCurrentDevice@0
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdScheduleAsynchronous@12
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdStartScheduler@0
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdEnable@4
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol _hduPrintError
+     1>omni_lib.lib(omni_lib.obj) : error LNK2001: unresolved external symbol __imp__hdInitDevice@4
+     1>C:\Users\dashley2\documents\visual studio 2010\Projects\Omni_Example\Release\Omni_Example.exe : fatal error LNK1120: 16 unresolved externals
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6006: "link.exe" exited with code 1120.
+     1>Done Building Project "C:\Users\dashley2\documents\visual studio 2010\Projects\Omni_Example\Omni_Example\Omni_Example.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.17
