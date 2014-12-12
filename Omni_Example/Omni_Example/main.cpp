@@ -8,7 +8,6 @@ using namespace WMRA;
 int main()
 {
 	omni o;
-	
 
 	// Omni Initialization check
 	cout << "Checking if Omni is initialized..." << endl;
@@ -40,14 +39,19 @@ int main()
 		cout << "\t...Omni forced to origin position\n" << endl;
 	}
 	else
+	{
+		o.setForceFeedback(0.0,0.0,0.0);
 		cout << "\t...Omni NOT forced to origin\n" << endl;
-
+		cout << "\t...Omni X,Y,Z forces set to zero" << endl;
+	}
 
 	// Force Magnitude
 	double mag = 0.1;
-	cout << "What force magnitude would you like to use? (Default: 0.1)" <<  endl;
-	cin >> mag;
-	o.setForceFeedback(mag);
-
+	while(mag != 0.0)
+	{
+		cout << "What force magnitude would you like to use? (Default: 0.1)" <<  endl;
+		cin >> mag;
+		o.setForceFeedback(mag);
+	}
 	return 1;
 }

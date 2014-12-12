@@ -1,0 +1,19 @@
+
+CREATING AN OMNI EXAMPLE PROGRAM
+
+1.) Using Visual Studios 2010 (Create an empty C++ project)
+
+2.) Create a main.cpp
+
+3.) Add the omni.lib and omni.h files, possibly HD.lib
+
+4.) In solution properties -> Linker -> Input -> Additional Dependencies, Add "omni.lib;hd.lib;hdu.lib"
+
+5.) In solution properties -> Linker -> General -> Additional Library Directories, add
+	"$(OH_SDK_BASE)\utilities\lib\$(Platform)\$(Configuration)"
+
+6.) In main.cpp
+	Add "using namespace WMRA"
+	use "omni omni_object" to create the omni object
+	"omni_object" is the object that holds all the functionality of the omni class.
+	
