@@ -1,17 +1,22 @@
-﻿Build started 12/12/2014 6:47:28 PM.
-     1>Project "C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Omni_Example\Omni_Example.vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Release\Omni_Example.lastbuildstate".
-       InitializeBuildStatus:
-         Creating "Release\Omni_Example.unsuccessfulbuild" because "AlwaysCreate" was specified.
+﻿Build started 12/13/2014 4:01:10 PM.
+     1>Project "C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Omni_Example\Omni_Example.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Omni_Example.unsuccessfulbuild".
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
+         All outputs are up-to-date.
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Release\Omni_Example.exe" /NOLOGO /LIBPATH:C:\OpenHaptics\Academic\3.2\utilities\lib\Win32\Release omni_lib.lib hd.lib hdu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Omni_Example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Release\Omni_Example.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Release\Omni_Example.lib" /MACHINE:X86 Release\main.obj
-     1>LINK : fatal error LNK1181: cannot open input file 'hd.lib'
-     1>Done Building Project "C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Omni_Example\Omni_Example.vcxproj" (rebuild target(s)) -- FAILED.
+         Generating code
+         Finished generating code
+     1>hdu.lib(hduError.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'hdu.lib(hduError.obj)' or at 'C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Release\vc100.pdb'; linking object as if no debug info
+         Omni_Example.vcxproj -> C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Release\Omni_Example.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Release\Omni_Example.exe;#1" /manifest Release\Omni_Example.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Omni_Example.unsuccessfulbuild".
+         Touching "Release\Omni_Example.lastbuildstate".
+     1>Done Building Project "C:\Users\dashley2\Documents\GitHub\Omni_Module\Omni_Example\Omni_Example\Omni_Example.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.65
+Time Elapsed 00:00:05.06
